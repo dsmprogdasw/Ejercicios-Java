@@ -10,11 +10,11 @@ public class Verificar {
 		System.out.println("Y: " + Y);
 		
 		if(X%Y==0) {
-			System.out.println("El número X es divisible entre el número Y");
+			System.out.println(X + " es divisible por " + Y);
 		}
 		
 		else {
-			System.out.println("El número X no es divisible entre el número Y");
+			System.out.println(X + " no es divisible por " + Y);
 		}
 	}
 
