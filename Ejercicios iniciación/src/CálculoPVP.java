@@ -19,7 +19,8 @@ public class CálculoPVP {
 			System.out.println("El tipo de IVA no es correcto");
 		
 		if (tipoiva >= 0 && tipoiva <-2) {
-			
+			double totaliva = precio * iva;
+			double total = precio + totalIVA;
 		}
 		in.close();
 				
