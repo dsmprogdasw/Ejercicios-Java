@@ -4,12 +4,12 @@ public class Verificar {
 
 	public static void main(String[] args) {
 		Random r = new Random(System.nanoTime());
-		int numerox =r.nextInt(10);
-		int numeroy =r.nextInt(5);
-		System.out.println("numerox: " + numerox);
-		System.out.println("numeroy: " + numeroy);
+		int X =r.nextInt(10);
+		int Y =r.nextInt(5);
+		System.out.println("X: " + X);
+		System.out.println("Y: " + Y);
 		
-		if(numerox%numeroy==0) {
+		if(X%Y==0) {
 			System.out.println("El número X es divisible entre el número Y");
 		}
 		
