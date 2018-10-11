@@ -1,6 +1,5 @@
 import java.util.Random;
 
-
 public class CompararNúmeros {
 
 	public static void main(String[] args) {
