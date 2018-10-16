@@ -21,7 +21,7 @@ public class CálculoPVP {
 		if (tipoiva >= 0 && tipoiva <=2) {
 			double totaliva = precio * iva;
 			double total = precio + totaliva;
-			System.out.println(total);
+			System.out.println(total); 
 		}
 		
 		in.close();
