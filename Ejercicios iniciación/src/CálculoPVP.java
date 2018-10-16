@@ -8,20 +8,22 @@ public class CálculoPVP {
 		float precio = in.nextFloat();
 		System.out.println("Tipo de IVA: (0) 7% - (1) 10% - (2) 21%");
 		int tipoiva = in.nextInt();
-		float iva;
+		float iva = 0;
 		if(tipoiva == 0)
 			iva = 0.07f;
 		else if (tipoiva == 1)
 			iva = 0.1f;
 		else if (tipoiva == 2) 
-			iva = 0.2f;
+			iva = 0.21f;
 		else
 			System.out.println("El tipo de IVA no es correcto");
-		
-		if (tipoiva >= 0 && tipoiva <-2) {
+
+		if (tipoiva >= 0 && tipoiva <=2) {
 			double totaliva = precio * iva;
 			double total = precio + totaliva;
+			System.out.println(total);
 		}
+		
 		in.close();
 				
 	}
