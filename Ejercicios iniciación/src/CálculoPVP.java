@@ -20,7 +20,7 @@ public class CálculoPVP {
 		
 		if (tipoiva >= 0 && tipoiva <-2) {
 			double totaliva = precio * iva;
-			double total = precio + totalIVA;
+			double total = precio + totaliva;
 		}
 		in.close();
 				
