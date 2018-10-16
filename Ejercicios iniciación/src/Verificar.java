@@ -4,8 +4,8 @@ public class Verificar {
 
 	public static void main(String[] args) {
 		Random r = new Random(System.nanoTime());
-		int X =r.nextInt(10);
-		int Y =r.nextInt(5);
+		int X =r.nextInt(749) + 5;
+		int Y =r.nextInt(100);
 		System.out.println("X: " + X);
 		System.out.println("Y: " + Y);
 		
