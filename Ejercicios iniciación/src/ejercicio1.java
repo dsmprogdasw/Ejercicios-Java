@@ -19,9 +19,11 @@ public class ejercicio1 {
 		}
 		else {
 			System.out.println(x + " no es divisible por " + y);
-			System.out.println("¿comprobar si un número es divisible entre " +y +"?");
+			System.out.println("¿comprobar si un número es divisible entre otro?");
 			respuesta = in.next();
 		}
+		
+		
 
 	}
 	
